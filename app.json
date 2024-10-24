@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "TCS Gig Worker",
+    "slug": "tcs-gig-worker-2ededikqm3-kpz4nqguxz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zotalia.tcsgigworker2ededikqm3kpz4nqguxz"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zotalia.tcsgigworker2ededikqm3kpz4nqguxz"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0dbe88c7-ff87-4f9e-ae8b-ed0e9db8a299"
+      }
+    },
+    "owner": "zotalia",
+    "updates": {
+      "url": "https://u.expo.dev/0dbe88c7-ff87-4f9e-ae8b-ed0e9db8a299"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
