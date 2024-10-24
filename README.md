@@ -25,15 +25,6 @@ In the output, you'll find options to open the app in a
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
 ## Learn more
 
@@ -48,3 +39,16 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Some notes from Ryan:
+
+- Make sure to get the prettier and eslint extension in VS Code.
+  - These are set to warning so you may override them if they are bugging you
+  - I just used the default format settings
+
+## More notes from Ryan on how to run the app!
+
+-Downlaod the Expo Go app on the App Store!!!
+- After you run the npx expo start command press the letter [s] to go into "go" mode
+  - If you don't press [s] you will be stuck in build mode and your app will not launch
+  - We can switch to build mode if we actually need to deploy the app (high unlikely)
