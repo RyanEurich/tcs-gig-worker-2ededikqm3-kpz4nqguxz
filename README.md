@@ -52,3 +52,8 @@ Join our community of developers creating universal apps.
 - After you run the npx expo start command press the letter [s] to go into "go" mode
   - If you don't press [s] you will be stuck in build mode and your app will not launch
   - We can switch to build mode if we actually need to deploy the app (high unlikely)
+
+## More notes from Ryan on pr's and merging:
+
+- It's fine if you assign and approve your own pr's
+  - Just make sure that your pr passes the automated check by the expo bot before merging!!!!!
